@@ -1,0 +1,56 @@
+//Universal styles
+
+html {
+  font-family: $mainFont;
+  font-size: 100%;
+}
+
+h1 {
+  color: $mainWhiteColor;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 200%;
+  font-weight: bold;
+  letter-spacing: 0.175rem;
+}
+
+body {
+  background-color: $mainWhiteColor;
+}
+
+h2 {
+  color: $mainTextColor;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: $mainWhiteColor;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  color: $mainWhiteColor;
+  font-size: 1rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 0.08rem;
+}
+
+p {
+  color: $mainTextColor;
+  font-size: 1.56rem;
+  line-height: 190%;
+  font-weight: regular;
+  letter-spacing: 0.1rem;
+}
+
+.container {
+  height: 100%;
+  width: 1280px;
+  max-width: 90%;
+  margin: auto;
+}

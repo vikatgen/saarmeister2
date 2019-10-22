@@ -1,0 +1,183 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat";
+  font-size: 100%;
+}
+
+h1 {
+  color: #ebeff0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 200%;
+  font-weight: bold;
+  letter-spacing: 0.175rem;
+}
+
+body {
+  background-color: #ebeff0;
+}
+
+h2 {
+  color: #2c5364;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ebeff0;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  color: #ebeff0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 0.08rem;
+}
+
+p {
+  color: #2c5364;
+  font-size: 1.56rem;
+  line-height: 190%;
+  font-weight: regular;
+  letter-spacing: 0.1rem;
+}
+
+.container {
+  height: 100%;
+  width: 1280px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.nav-section {
+  width: 100vw;
+  height: 4rem;
+  -webkit-box-shadow: 0px 5px 6px #2c5364;
+          box-shadow: 0px 5px 6px #2c5364;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav-section .nav-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-section .nav-wrapper .logo img {
+  width: 200px;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #2c5364;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section .hero-background-image {
+  width: 100vw;
+  height: 100vh;
+  background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+  position: absolute;
+}
+
+.hero-section .treeline {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: -4px;
+}
+
+.hero-section .down-indicator {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 7rem;
+}
+
+.hero-section .hero-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-section .hero-wrapper .hero-heading {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.hero-section .hero-wrapper .hero-heading .hero-h1 {
+  width: 100%;
+  height: auto;
+}
+
+.hero-section .hero-wrapper .hero-heading .hero-btn {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.hero-section .hero-wrapper .hero-heading .hero-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #2c5364;
+  background-color: #ebeff0;
+  padding: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  body nav {
+    padding-top: 2rem;
+  }
+  body header .down-indicator {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  html {
+    font-size: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
