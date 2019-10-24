@@ -11,6 +11,9 @@
     align-items: center;
     .logo img {
       width: 200px;
+      @media screen and (max-width: 500px) {
+        width: 150px;
+      }
     }
   }
 }

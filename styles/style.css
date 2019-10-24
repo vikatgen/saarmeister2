@@ -25,6 +25,12 @@ h1 {
   }
 }
 
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+}
+
 body {
   background-color: #ebeff0;
 }
@@ -95,6 +101,12 @@ p {
 
 .nav-section .nav-wrapper .logo img {
   width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-section .nav-wrapper .logo img {
+    width: 150px;
+  }
 }
 
 .hero-section {
