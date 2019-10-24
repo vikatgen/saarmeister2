@@ -65,6 +65,12 @@ p {
   letter-spacing: 0.1rem;
 }
 
+@media screen and (max-width: 550px) {
+  p {
+    font-size: 1.3rem;
+  }
+}
+
 .container {
   height: 100%;
   width: 1280px;
@@ -222,5 +228,69 @@ p {
   color: #2c5364;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+#features {
+  width: 100vw;
+  height: 100%;
+  background-color: #ebeff0;
+}
+
+#features .features-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#features .features-wrapper .features-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: transparent url(/assets/features-image.svg) no-repeat;
+  background-position: right 0px top 0px;
+  background-size: contain;
+}
+
+@media screen and (max-width: 700px) {
+  #features .features-wrapper .features-image {
+    opacity: 0.1;
+    background-position: center;
+  }
+}
+
+#features .features-wrapper .features-content {
+  width: 40%;
+  margin-top: 130px;
+  margin-bottom: 100px;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 1050px) {
+  #features .features-wrapper .features-content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #features .features-wrapper .features-content {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #features .features-wrapper .features-content {
+    width: 100%;
+  }
+}
+
+#features .features-wrapper .features-content .features-card:nth-child(2) {
+  margin: 40px 0px;
+}
+
+@media screen and (max-width: 680px) {
+  #features .features-wrapper .features-content .features-card p {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

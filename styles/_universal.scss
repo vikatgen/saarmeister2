@@ -52,6 +52,9 @@ p {
   line-height: 190%;
   font-weight: regular;
   letter-spacing: 0.1rem;
+  @media screen and (max-width: 550px) {
+    font-size: 1.3rem;
+  }
 }
 
 .container {
