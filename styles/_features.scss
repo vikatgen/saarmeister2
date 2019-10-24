@@ -31,7 +31,7 @@
         width: 60%;
         margin-top: 100px;
       }
-      @media screen and (max-width: 680px) {
+      @media screen and (max-width: 700px) {
         width: 100%;
       }
       .features-card {
@@ -39,7 +39,7 @@
           margin: 40px 0px;
         }
         p {
-          @media screen and (max-width: 680px) {
+          @media screen and (max-width: 700px) {
             text-align: center;
           }
         }
