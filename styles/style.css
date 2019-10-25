@@ -434,6 +434,23 @@ p {
   padding-bottom: 150px;
 }
 
+#meistrid .meister-bg {
+  width: 90%;
+  height: 100%;
+  max-width: 1290px;
+  background: transparent url(/assets/meister-bg.svg) no-repeat;
+  position: absolute;
+  background-position: right 0px bottom 0px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  #meistrid .meister-bg {
+    opacity: 0.25;
+    background-position-x: center;
+  }
+}
+
 #meistrid .hero-background-image {
   position: absolute;
   width: 100%;
@@ -472,64 +489,51 @@ p {
   padding-top: 150px;
 }
 
-#meistrid .meistrid-wrapper .meister-bg {
-  width: 100%;
-  height: 100%;
-  background: transparent url(/assets/meister-bg.svg) no-repeat;
-  position: absolute;
-  background-position: right 0px bottom 0px;
-  z-index: 0;
-}
-
-@media screen and (max-width: 1050px) {
-  #meistrid .meistrid-wrapper .meister-bg {
-    opacity: 0.25;
-  }
-}
-
-#meistrid .meistrid-wrapper .meistrid-content {
+#meistrid .meistrid-content {
   width: 60%;
-  z-index: 3;
+  height: 100%;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1050px) {
-  #meistrid .meistrid-wrapper .meistrid-content {
+  #meistrid .meistrid-content {
     width: 80%;
+    height: 100%;
     text-align: center;
     margin: auto;
   }
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister1 {
+#meistrid .meistrid-content .meister1 {
   margin-bottom: 60px;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister1 p {
+#meistrid .meistrid-content .meister1 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name {
+#meistrid .meistrid-content .meister1 .meister-name {
   width: 100%;
   text-align: right;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name h3 {
+#meistrid .meistrid-content .meister1 .meister-name h3 {
   margin-bottom: 10px;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister2 p {
+#meistrid .meistrid-content .meister2 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name {
+#meistrid .meistrid-content .meister2 .meister-name {
   width: 100%;
   text-align: right;
   z-index: 2;
 }
 
-#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name h3 {
+#meistrid .meistrid-content .meister2 .meister-name h3 {
   margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

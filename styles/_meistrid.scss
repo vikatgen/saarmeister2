@@ -4,6 +4,19 @@
   background-color: $mainBgColor;
   position: relative;
   padding-bottom: 150px;
+  .meister-bg {
+    width: 90%;
+    height: 100%;
+    max-width: 1290px;
+    background: transparent url(/assets/meister-bg.svg) no-repeat;
+    position: absolute;
+    background-position: right 0px bottom 0px;
+    z-index: 0;
+    @media screen and (max-width: 1050px) {
+      opacity: 0.25;
+      background-position-x: center;
+    }
+  }
   .hero-background-image {
     position: absolute;
     width: 100%;
@@ -38,51 +51,42 @@
     height: 100%;
     position: relative;
     padding-top: 150px;
-    .meister-bg {
-      width: 100%;
+  }
+  .meistrid-content {
+    width: 60%;
+    height: 100%;
+    z-index: 2;
+    @media screen and (max-width: 1050px) {
+      width: 80%;
       height: 100%;
-      background: transparent url(/assets/meister-bg.svg) no-repeat;
-      position: absolute;
-      background-position: right 0px bottom 0px;
-      z-index: 0;
-      @media screen and (max-width: 1050px) {
-        opacity: 0.25;
+      text-align: center;
+      margin: auto;
+    }
+    .meister1 {
+      margin-bottom: 60px;
+      p {
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+      .meister-name {
+        width: 100%;
+        text-align: right;
+        h3 {
+          margin-bottom: 10px;
+        }
       }
     }
-    .meistrid-content {
-      width: 60%;
-      z-index: 3;
-      @media screen and (max-width: 1050px) {
-        width: 80%;
-        text-align: center;
-        margin: auto;
+    .meister2 {
+      p {
+        margin-top: 50px;
+        margin-bottom: 30px;
       }
-      .meister1 {
-        margin-bottom: 60px;
-        p {
-          margin-top: 50px;
-          margin-bottom: 30px;
-        }
-        .meister-name {
-          width: 100%;
-          text-align: right;
-          h3 {
-            margin-bottom: 10px;
-          }
-        }
-      }
-      .meister2 {
-        p {
-          margin-top: 50px;
-          margin-bottom: 30px;
-        }
-        .meister-name {
-          width: 100%;
-          text-align: right;
-          z-index: 2;
-          h3 {
-            margin-bottom: 10px;
-          }
+      .meister-name {
+        width: 100%;
+        text-align: right;
+        z-index: 2;
+        h3 {
+          margin-bottom: 10px;
         }
       }
     }
