@@ -53,7 +53,9 @@ p {
   font-weight: regular;
   letter-spacing: 0.1rem;
   @media screen and (max-width: 550px) {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 160%;
+    letter-spacing: 0.08rem;
   }
 }
 

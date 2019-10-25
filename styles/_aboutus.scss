@@ -1,14 +1,22 @@
 #about-us {
   width: 100vw;
   height: 100%;
+  background-color: #fff;
+  padding-bottom: 130px;
+  @media screen and (max-width: 550px) {
+    padding-bottom: 80px;
+  }
   .aboutus-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 50px;
     position: relative;
+    @media screen and (max-width: 550px) {
+      padding-top: 60px;
+    }
     .aboutus-image {
       width: 100%;
       height: 100%;
@@ -25,7 +33,14 @@
       }
       .star-rating {
         width: 100%;
-        display: none;
+        height: 30px;
+        background: transparent url(/assets/starRating.svg) no-repeat;
+        background-size: contain;
+        background-position: center center;
+        @media screen and (max-width: 550px) {
+          width: 80%;
+          margin: auto;
+        }
       }
       h2 {
         margin-bottom: 40px;

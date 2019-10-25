@@ -67,7 +67,9 @@ p {
 
 @media screen and (max-width: 550px) {
   p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 160%;
+    letter-spacing: 0.08rem;
   }
 }
 
@@ -139,7 +141,7 @@ p {
   background: transparent url(/assets/treeline-svg.svg) no-repeat;
   background-position: left -4px bottom 0px;
   position: absolute;
-  bottom: 0px;
+  bottom: -3px;
   z-index: 1;
 }
 
@@ -223,6 +225,22 @@ p {
   z-index: 1;
 }
 
+@media screen and (max-width: 890px) {
+  .hero-section .hero-wrapper .hero-heading .hero-btn {
+    padding: 15px 30px;
+    white-space: nowrap;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-section .hero-wrapper .hero-heading .hero-btn {
+    padding: 15px 15px;
+    white-space: nowrap;
+    width: 70%;
+  }
+}
+
 .hero-section .hero-wrapper .hero-heading .hero-btn a {
   text-decoration: none;
   color: #2c5364;
@@ -234,6 +252,19 @@ p {
   width: 100vw;
   height: 100%;
   background-color: #ebeff0;
+  position: relative;
+  padding-bottom: 130px;
+}
+
+#features .treeline-white {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-png-white.svg) no-repeat;
+  background-position: left -4px bottom 0px;
+  position: absolute;
+  bottom: -2px;
+  z-index: 1;
 }
 
 #features .features-wrapper {
@@ -298,6 +329,14 @@ p {
 #about-us {
   width: 100vw;
   height: 100%;
+  background-color: #fff;
+  padding-bottom: 130px;
+}
+
+@media screen and (max-width: 550px) {
+  #about-us {
+    padding-bottom: 80px;
+  }
 }
 
 #about-us .aboutus-wrapper {
@@ -309,9 +348,15 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 50px;
   position: relative;
+}
+
+@media screen and (max-width: 550px) {
+  #about-us .aboutus-wrapper {
+    padding-top: 60px;
+  }
 }
 
 #about-us .aboutus-wrapper .aboutus-image {
@@ -336,7 +381,17 @@ p {
 
 #about-us .aboutus-wrapper .aboutus-content .star-rating {
   width: 100%;
-  display: none;
+  height: 30px;
+  background: transparent url(/assets/starRating.svg) no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+@media screen and (max-width: 550px) {
+  #about-us .aboutus-wrapper .aboutus-content .star-rating {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 #about-us .aboutus-wrapper .aboutus-content h2 {

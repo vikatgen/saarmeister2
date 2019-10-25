@@ -2,6 +2,18 @@
   width: 100vw;
   height: 100%;
   background-color: $mainWhiteColor;
+  position: relative;
+  padding-bottom: 130px;
+  .treeline-white {
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    background: transparent url(/assets/treeline-png-white.svg) no-repeat;
+    background-position: left -4px bottom 0px;
+    position: absolute;
+    bottom: -2px;
+    z-index: 1;
+  }
   .features-wrapper {
     width: 100%;
     height: 100%;
