@@ -435,19 +435,19 @@ p {
 }
 
 #meistrid .meister-bg {
-  width: 90%;
+  width: 100%;
   height: 100%;
-  max-width: 1290px;
+  max-width: 1280px;
   background: transparent url(/assets/meister-bg.svg) no-repeat;
   position: absolute;
   background-position: right 0px bottom 0px;
-  z-index: 0;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1050px) {
   #meistrid .meister-bg {
     opacity: 0.25;
-    background-position-x: center;
+    background-position-x: right;
   }
 }
 
@@ -487,16 +487,16 @@ p {
   height: 100%;
   position: relative;
   padding-top: 150px;
-}
-
-#meistrid .meistrid-content {
-  width: 60%;
-  height: 100%;
   z-index: 2;
 }
 
+#meistrid .meistrid-wrapper .meistrid-content {
+  width: 60%;
+  height: 100%;
+}
+
 @media screen and (max-width: 1050px) {
-  #meistrid .meistrid-content {
+  #meistrid .meistrid-wrapper .meistrid-content {
     width: 80%;
     height: 100%;
     text-align: center;
@@ -504,36 +504,151 @@ p {
   }
 }
 
-#meistrid .meistrid-content .meister1 {
+#meistrid .meistrid-wrapper .meistrid-content .meister1 {
   margin-bottom: 60px;
 }
 
-#meistrid .meistrid-content .meister1 p {
+#meistrid .meistrid-wrapper .meistrid-content .meister1 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#meistrid .meistrid-content .meister1 .meister-name {
+#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name {
   width: 100%;
   text-align: right;
 }
 
-#meistrid .meistrid-content .meister1 .meister-name h3 {
+#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name h3 {
   margin-bottom: 10px;
 }
 
-#meistrid .meistrid-content .meister2 p {
+#meistrid .meistrid-wrapper .meistrid-content .meister2 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#meistrid .meistrid-content .meister2 .meister-name {
+#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name {
   width: 100%;
   text-align: right;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name h3 {
+  margin-bottom: 10px;
+}
+
+#portfolio {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+#review {
+  width: 100%;
+  height: 100%;
+  background-color: #2c5364;
+  position: relative;
+}
+
+#review .review-bg {
+  width: 100%;
+  height: 100%;
+  max-width: 1280px;
+  background: transparent url(/assets/tagasiside-bg.svg) no-repeat;
+  position: absolute;
+  background-position: right 0px bottom 0px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1050px) {
+  #review .review-bg {
+    opacity: 0.25;
+    background-position-x: center;
+  }
+}
+
+#review .treeline-white-reversed {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-png-white-reversed.svg) no-repeat;
+  background-position: left -4px top 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+#review .treeline {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-svg.svg) no-repeat;
+  background-position: left -4px bottom 0px;
+  position: absolute;
+  bottom: -3px;
+  z-index: 1;
+}
+
+#review .hero-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#review .portfolio-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
   z-index: 2;
 }
 
-#meistrid .meistrid-content .meister2 .meister-name h3 {
+#review .portfolio-wrapper .portfolio-content {
+  width: 60%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  #review .portfolio-wrapper .portfolio-content {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+#review .portfolio-wrapper .portfolio-content .review1 {
+  margin-bottom: 60px;
+}
+
+#review .portfolio-wrapper .portfolio-content .review1 p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#review .portfolio-wrapper .portfolio-content .review1 .review-name {
+  width: 100%;
+  text-align: right;
+}
+
+#review .portfolio-wrapper .portfolio-content .review1 .review-name h3 {
+  margin-bottom: 10px;
+}
+
+#review .portfolio-wrapper .portfolio-content .review2 p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#review .portfolio-wrapper .portfolio-content .review2 .review-name {
+  width: 100%;
+  text-align: right;
+}
+
+#review .portfolio-wrapper .portfolio-content .review2 .review-name h3 {
   margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,29 +1,20 @@
-#meistrid {
+#review {
   width: 100%;
   height: 100%;
   background-color: $mainBgColor;
   position: relative;
-  padding-bottom: 150px;
-  .meister-bg {
+  .review-bg {
     width: 100%;
     height: 100%;
     max-width: 1280px;
-    background: transparent url(/assets/meister-bg.svg) no-repeat;
+    background: transparent url(/assets/tagasiside-bg.svg) no-repeat;
     position: absolute;
     background-position: right 0px bottom 0px;
     z-index: 1;
     @media screen and (max-width: 1050px) {
       opacity: 0.25;
-      background-position-x: right;
+      background-position-x: center;
     }
-  }
-  .hero-background-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
-    overflow: hidden;
-    z-index: 0;
   }
   .treeline-white-reversed {
     width: 100%;
@@ -36,23 +27,32 @@
     top: 0px;
     z-index: 1;
   }
-  .treeline-white {
+  .treeline {
     width: 100%;
     overflow: hidden;
     height: 80px;
-    background: transparent url(/assets/treeline-png-white.svg) no-repeat;
+    background: transparent url(/assets/treeline-svg.svg) no-repeat;
     background-position: left -4px bottom 0px;
     position: absolute;
-    bottom: -2px;
+    bottom: -3px;
     z-index: 1;
   }
-  .meistrid-wrapper {
+  .hero-background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .portfolio-wrapper {
     width: 100%;
     height: 100%;
     position: relative;
     padding-top: 150px;
+    padding-bottom: 150px;
     z-index: 2;
-    .meistrid-content {
+    .portfolio-content {
       width: 60%;
       height: 100%;
       @media screen and (max-width: 1050px) {
@@ -61,13 +61,13 @@
         text-align: center;
         margin: auto;
       }
-      .meister1 {
+      .review1 {
         margin-bottom: 60px;
         p {
           margin-top: 50px;
           margin-bottom: 30px;
         }
-        .meister-name {
+        .review-name {
           width: 100%;
           text-align: right;
           h3 {
@@ -75,12 +75,12 @@
           }
         }
       }
-      .meister2 {
+      .review2 {
         p {
           margin-top: 50px;
           margin-bottom: 30px;
         }
-        .meister-name {
+        .review-name {
           width: 100%;
           text-align: right;
           h3 {
