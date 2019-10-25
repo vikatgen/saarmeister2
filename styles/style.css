@@ -43,6 +43,14 @@ h2 {
   text-transform: uppercase;
 }
 
+.h2-white {
+  color: #ebeff0;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h3 {
   color: #ebeff0;
   font-size: 1rem;
@@ -67,6 +75,22 @@ p {
 
 @media screen and (max-width: 550px) {
   p {
+    font-size: 1.2rem;
+    line-height: 160%;
+    letter-spacing: 0.08rem;
+  }
+}
+
+.p-white {
+  color: #ebeff0;
+  font-size: 1.56rem;
+  line-height: 190%;
+  font-weight: regular;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .p-white {
     font-size: 1.2rem;
     line-height: 160%;
     letter-spacing: 0.08rem;
@@ -400,5 +424,113 @@ p {
 
 #about-us .aboutus-wrapper .aboutus-content p {
   margin-bottom: 40px;
+}
+
+#meistrid {
+  width: 100%;
+  height: 100%;
+  background-color: #2c5364;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+#meistrid .hero-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+  background-size: contain;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#meistrid .treeline-white-reversed {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-png-white-reversed.svg) no-repeat;
+  background-position: left -4px top 0px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+
+#meistrid .treeline-white {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-png-white.svg) no-repeat;
+  background-position: left -4px bottom 0px;
+  position: absolute;
+  bottom: -2px;
+  z-index: 1;
+}
+
+#meistrid .meistrid-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 150px;
+}
+
+#meistrid .meistrid-wrapper .meister-bg {
+  width: 100%;
+  height: 100%;
+  background: transparent url(/assets/meister-bg.svg) no-repeat;
+  position: absolute;
+  background-position: right 0px bottom 0px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  #meistrid .meistrid-wrapper .meister-bg {
+    opacity: 0.25;
+  }
+}
+
+#meistrid .meistrid-wrapper .meistrid-content {
+  width: 60%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1050px) {
+  #meistrid .meistrid-wrapper .meistrid-content {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister1 {
+  margin-bottom: 60px;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister1 p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name {
+  width: 100%;
+  text-align: right;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister1 .meister-name h3 {
+  margin-bottom: 10px;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister2 p {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name {
+  width: 100%;
+  text-align: right;
+  z-index: 2;
+}
+
+#meistrid .meistrid-wrapper .meistrid-content .meister2 .meister-name h3 {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

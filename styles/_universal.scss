@@ -32,6 +32,14 @@ h2 {
   text-transform: uppercase;
 }
 
+.h2-white {
+  color: $mainWhiteColor;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h3 {
   color: $mainWhiteColor;
   font-size: 1rem;
@@ -48,6 +56,19 @@ h4 {
 
 p {
   color: $mainTextColor;
+  font-size: 1.56rem;
+  line-height: 190%;
+  font-weight: regular;
+  letter-spacing: 0.1rem;
+  @media screen and (max-width: 550px) {
+    font-size: 1.2rem;
+    line-height: 160%;
+    letter-spacing: 0.08rem;
+  }
+}
+
+.p-white {
+  color: $mainWhiteColor;
   font-size: 1.56rem;
   line-height: 190%;
   font-weight: regular;
