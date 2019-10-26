@@ -14,6 +14,7 @@
     transform: translateX(-50%);
     background-position: right 0px bottom 0px;
     z-index: 1;
+    overflow: hidden;
     @media screen and (max-width: 1050px) {
       opacity: 0.25;
       background-position-x: center;
