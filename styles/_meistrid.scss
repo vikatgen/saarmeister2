@@ -10,6 +10,8 @@
     max-width: 1280px;
     background: transparent url(/assets/meistrid-bg.svg) no-repeat;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     background-position: right 0px bottom 0px;
     z-index: 1;
     @media screen and (max-width: 1050px) {
@@ -32,6 +34,7 @@
     background: transparent url(/assets/treeline-png-white-reversed.svg)
       no-repeat;
     background-position: left -4px top 0px;
+    background-size: cover;
     position: absolute;
     top: 0px;
     z-index: 1;
@@ -42,6 +45,7 @@
     height: 80px;
     background: transparent url(/assets/treeline-png-white.svg) no-repeat;
     background-position: left -4px bottom 0px;
+    background-size: cover;
     position: absolute;
     bottom: -2px;
     z-index: 1;
