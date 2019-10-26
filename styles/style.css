@@ -284,7 +284,7 @@ p {
 #features .treeline-white {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-png-white.svg) no-repeat;
   background-position: left -4px bottom 0px;
   background-size: cover;
@@ -468,7 +468,7 @@ p {
 #meistrid .treeline-white-reversed {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-png-white-reversed.svg) no-repeat;
   background-position: left -4px top 0px;
   background-size: cover;
@@ -480,7 +480,7 @@ p {
 #meistrid .treeline-white {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-png-white.svg) no-repeat;
   background-position: left -4px bottom 0px;
   background-size: cover;
@@ -577,7 +577,7 @@ p {
 #review .treeline-white-reversed {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-png-white-reversed.svg) no-repeat;
   background-position: left -4px top 0px;
   background-size: cover;
@@ -589,7 +589,7 @@ p {
 #review .treeline {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-svg.svg) no-repeat;
   background-position: left -4px bottom 0px;
   position: absolute;
