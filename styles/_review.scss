@@ -10,6 +10,8 @@
     margin: auto;
     background: transparent url(/assets/tagasiside-bg.svg) no-repeat;
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     background-position: right 0px bottom 0px;
     z-index: 1;
     @media screen and (max-width: 1050px) {
