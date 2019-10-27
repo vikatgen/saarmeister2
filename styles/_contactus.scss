@@ -5,6 +5,16 @@
   background-color: #fff;
   padding-top: 80px;
   padding-bottom: 150px;
+  .dot-white {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    background: transparent url(/assets/dot-pattern-notsowhite.svg) no-repeat;
+    background-size: cover;
+    background-position-y: -50%;
+    opacity: 0.3;
+  }
   .treeline-green {
     width: 100%;
     overflow: hidden;
