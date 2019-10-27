@@ -872,6 +872,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1050px) {
@@ -888,8 +889,10 @@ p {
 
 #contact-us .contact-us-wrapper .contact-left {
   width: 50%;
-  height: 100%;
+  height: auto;
   padding-right: 20px;
+  border: 1px solid green;
+  position: relative;
 }
 
 @media screen and (max-width: 1050px) {
@@ -911,6 +914,8 @@ p {
   border-radius: 15px;
   position: relative;
   overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 #contact-us .contact-us-wrapper .contact-left .info-wrapper .hero-background-image {
