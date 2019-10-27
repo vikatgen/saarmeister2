@@ -513,6 +513,12 @@ p {
   }
 }
 
+@media screen and (max-width: 750px) {
+  #meistrid .meistrid-wrapper .meistrid-content {
+    width: 100%;
+  }
+}
+
 #meistrid .meistrid-wrapper .meistrid-content .meister1 {
   margin-bottom: 60px;
 }
@@ -612,7 +618,7 @@ p {
   z-index: 0;
 }
 
-#review .portfolio-wrapper {
+#review .review-wrapper {
   width: 100%;
   height: 100%;
   position: relative;
@@ -621,13 +627,13 @@ p {
   z-index: 2;
 }
 
-#review .portfolio-wrapper .portfolio-content {
+#review .review-wrapper .review-content {
   width: 60%;
   height: 100%;
 }
 
 @media screen and (max-width: 1050px) {
-  #review .portfolio-wrapper .portfolio-content {
+  #review .review-wrapper .review-content {
     width: 80%;
     height: 100%;
     text-align: center;
@@ -635,35 +641,41 @@ p {
   }
 }
 
-#review .portfolio-wrapper .portfolio-content .review1 {
+@media screen and (max-width: 750px) {
+  #review .review-wrapper .review-content {
+    width: 100%;
+  }
+}
+
+#review .review-wrapper .review-content .review1 {
   margin-bottom: 60px;
 }
 
-#review .portfolio-wrapper .portfolio-content .review1 p {
+#review .review-wrapper .review-content .review1 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#review .portfolio-wrapper .portfolio-content .review1 .review-name {
+#review .review-wrapper .review-content .review1 .review-name {
   width: 100%;
   text-align: right;
 }
 
-#review .portfolio-wrapper .portfolio-content .review1 .review-name h3 {
+#review .review-wrapper .review-content .review1 .review-name h3 {
   margin-bottom: 10px;
 }
 
-#review .portfolio-wrapper .portfolio-content .review2 p {
+#review .review-wrapper .review-content .review2 p {
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-#review .portfolio-wrapper .portfolio-content .review2 .review-name {
+#review .review-wrapper .review-content .review2 .review-name {
   width: 100%;
   text-align: right;
 }
 
-#review .portfolio-wrapper .portfolio-content .review2 .review-name h3 {
+#review .review-wrapper .review-content .review2 .review-name h3 {
   margin-bottom: 10px;
 }
 

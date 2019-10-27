@@ -66,6 +66,9 @@
         text-align: center;
         margin: auto;
       }
+      @media screen and (max-width: 750px) {
+        width: 100%;
+      }
       .meister1 {
         margin-bottom: 60px;
         p {
