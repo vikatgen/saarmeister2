@@ -154,6 +154,20 @@
             opacity: 0.8;
             color: $mainBgColor;
           }
+          button {
+            width: 50%;
+            background-color: $mainBgColor;
+            z-index: 1;
+            border-radius: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: $mainWhiteColor;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            margin-top: 40px;
+            font-weight: 800;
+            letter-spacing: 0.1rem;
+          }
         }
       }
     }
