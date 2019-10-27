@@ -837,6 +837,13 @@ p {
   z-index: 0;
 }
 
+@media screen and (max-width: 1050px) {
+  #contact-us .dot-white {
+    background-position-x: center;
+    opacity: 0.2;
+  }
+}
+
 #contact-us .treeline-green {
   width: 100%;
   overflow: hidden;
@@ -861,10 +868,35 @@ p {
           flex-direction: row;
 }
 
+@media screen and (max-width: 1050px) {
+  #contact-us .contact-us-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 #contact-us .contact-us-wrapper .contact-left {
   width: 50%;
   height: 100%;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  #contact-us .contact-us-wrapper .contact-left {
+    padding-right: 0px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #contact-us .contact-us-wrapper .contact-left {
+    width: 100%;
+  }
 }
 
 #contact-us .contact-us-wrapper .contact-left .info-wrapper {
@@ -890,6 +922,13 @@ p {
   z-index: 1;
 }
 
+@media screen and (max-width: 1050px) {
+  #contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 #contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container h2 {
   margin-bottom: 40px;
   margin-top: 40px;
@@ -909,6 +948,20 @@ p {
   width: 100%;
   padding-left: 20px;
   width: 50%;
+}
+
+@media screen and (max-width: 1050px) {
+  #contact-us .contact-us-wrapper .contact-right {
+    padding-left: 0px;
+    width: 80%;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #contact-us .contact-us-wrapper .contact-right {
+    width: 100%;
+  }
 }
 
 #contact-us .contact-us-wrapper .contact-right .contact-wrapper {
