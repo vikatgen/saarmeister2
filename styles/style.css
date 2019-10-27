@@ -891,4 +891,75 @@ p {
   color: #ebeff0;
   cursor: pointer;
 }
+
+#contact-us .contact-us-wrapper .contact-right {
+  width: 100%;
+  padding-left: 20px;
+  width: 50%;
+  border: 1px solid red;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper {
+  width: 100%;
+  padding-top: 40px;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper h2 {
+  margin-bottom: 40px;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form label {
+  width: 100%;
+  text-align: left;
+  color: #2c5364;
+  font-size: 1rem;
+  margin: 20px 0px;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: #ebeff0;
+  border-radius: 15px;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form input[type="text"],
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form input[type="email"],
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form input[type="tel"] {
+  padding-left: 20px;
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  opacity: 0.8;
+  color: #2c5364;
+}
+
+#contact-us .contact-us-wrapper .contact-right .contact-wrapper form textarea {
+  outline: none;
+  background-color: #ebeff0;
+  border-radius: 15px;
+  border: none;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  opacity: 0.8;
+  color: #2c5364;
+}
 /*# sourceMappingURL=style.css.map */

@@ -232,7 +232,36 @@
               </div>
             </div>
           </div>
-          <div class="contact-right"></div>
+
+          <div class="contact-right">
+            <div class="contact-wrapper">
+              <h2>Saada meile sõnum!</h2>
+              <form data-netlify="true" method="POST">
+                
+                <!-- Eesnimi Input -->
+                <label for="nimi">Eesnimi</label>
+                <input type="text" name="eesnimi" id="nimi" required>
+
+                <!--Perekonna nime Input-->
+                <label for="perenimi">Perekonnanimi</label>
+                <input type="text" name="taganimi" id="perenimi"required>
+
+                <!--Telefoni number-->
+                <label for="telefon">Telefoni number</label>
+                <input type="tel" name="number" id="telefon" required>
+
+                <!--Emaili aadress-->
+                <label for="email">Teie e-mail</label>
+                <input type="email" name="aadress" id="email" required>
+
+                <!--Tekst Input-->
+                <label for="tekst">Teie sõnum</label>
+                <textarea name="sonum" id="tekst" cols="30" rows="10"></textarea>
+
+
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
