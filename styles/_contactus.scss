@@ -1,0 +1,62 @@
+#contact-us {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  .treeline-green {
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    background: transparent url(/assets/treeline-green.svg) no-repeat;
+    background-position: left -4px bottom 0px;
+    background-size: cover;
+    position: absolute;
+    bottom: -3px;
+    z-index: 1;
+  }
+  .contact-us-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .contact-left {
+      width: 50%;
+      height: 100%;
+      padding-right: 20px;
+      .info-wrapper {
+        background-color: $mainBgColor;
+        width: 100%;
+        border-radius: 15px;
+        position: relative;
+        overflow: hidden;
+        .hero-background-image {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+          overflow: hidden;
+          z-index: 0;
+          pointer-events: none;
+        }
+        .info-container {
+          padding: 40px;
+          z-index: 1;
+          h2 {
+            margin-bottom: 40px;
+            margin-top: 40px;
+          }
+          .p-white {
+            margin-bottom: 25px;
+          }
+          .p-white a {
+            text-decoration: none;
+            color: $mainWhiteColor;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

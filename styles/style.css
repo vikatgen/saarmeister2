@@ -685,6 +685,18 @@ p {
   position: relative;
 }
 
+#faq-section .treeline-white {
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  background: transparent url(/assets/treeline-png-white.svg) no-repeat;
+  background-position: left -4px bottom 0px;
+  background-size: cover;
+  position: absolute;
+  bottom: -2px;
+  z-index: 1;
+}
+
 #faq-section .faq-heading {
   margin-top: 50px;
 }
@@ -699,6 +711,7 @@ p {
 #faq-section .faq-wrapper {
   width: 100%;
   margin-top: 50px;
+  padding-bottom: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,5 +813,82 @@ p {
   #faq-section .faq-wrapper .faq-right .question-wrapper .answer {
     font-size: 1.05rem;
   }
+}
+
+#contact-us {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+#contact-us .treeline-green {
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  background: transparent url(/assets/treeline-green.svg) no-repeat;
+  background-position: left -4px bottom 0px;
+  background-size: cover;
+  position: absolute;
+  bottom: -3px;
+  z-index: 1;
+}
+
+#contact-us .contact-us-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#contact-us .contact-us-wrapper .contact-left {
+  width: 50%;
+  height: 100%;
+  padding-right: 20px;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper {
+  background-color: #2c5364;
+  width: 100%;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper .hero-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent url(/assets/hero-wallpaper-grid.svg) repeat;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container {
+  padding: 40px;
+  z-index: 1;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container .p-white {
+  margin-bottom: 25px;
+}
+
+#contact-us .contact-us-wrapper .contact-left .info-wrapper .info-container .p-white a {
+  text-decoration: none;
+  color: #ebeff0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
