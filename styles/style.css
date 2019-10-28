@@ -856,7 +856,7 @@ p {
 @media screen and (max-width: 1050px) {
   #contact-us .dot-white {
     background-position-x: center;
-    opacity: 0.2;
+    opacity: 0.4;
   }
 }
 
