@@ -890,7 +890,6 @@ p {
   width: 50%;
   height: auto;
   padding-right: 20px;
-  border: 1px solid green;
   position: relative;
 }
 
@@ -914,7 +913,7 @@ p {
   border-radius: 15px;
   position: -webkit-sticky;
   position: sticky;
-  top: 100px;
+  top: 120px;
 }
 
 #contact-us .contact-us-wrapper .contact-left .info-wrapper .hero-background-image {
