@@ -1109,7 +1109,7 @@ p {
   #footer .footer-wrapper .footer-logo {
     width: 100%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 
@@ -1152,5 +1152,31 @@ p {
 
 #footer .footer-wrapper .footer-socials a:nth-child(2) {
   margin-left: 20px;
+}
+
+#privacy-section {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#privacy-section h2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#privacy-section ul {
+  width: 60%;
+}
+
+#privacy-section li {
+  margin-top: 30px;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  letter-spacing: 0.05rem;
+  line-height: 140%;
+  color: #2c5364;
+  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */
