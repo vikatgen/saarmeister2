@@ -849,7 +849,7 @@ p {
   background: transparent url(/assets/dot-pattern-notsowhite.svg) no-repeat;
   background-size: cover;
   background-position-y: -50%;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: 0;
 }
 
