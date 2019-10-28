@@ -863,7 +863,7 @@ p {
 #contact-us .treeline-green {
   width: 100%;
   overflow: hidden;
-  height: 80px;
+  height: 100px;
   background: transparent url(/assets/treeline-green.svg) no-repeat;
   background-position: left -4px bottom 0px;
   background-size: cover;
