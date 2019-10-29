@@ -783,18 +783,6 @@ p {
   position: relative;
 }
 
-#faq-section::after {
-  content: "";
-  background: transparent url(/assets/faq-background.svg) repeat;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-  opacity: 0.03;
-}
-
 #faq-section .treeline-white {
   width: 100%;
   overflow: hidden;
@@ -870,6 +858,12 @@ p {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  #faq-section .faq-wrapper .faq-left .question-wrapper {
+    padding: 40px 20px;
+  }
+}
+
 #faq-section .faq-wrapper .faq-left .question-wrapper h2 {
   margin-bottom: 40px;
 }
@@ -909,6 +903,12 @@ p {
   padding: 40px;
   margin-bottom: 20px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  #faq-section .faq-wrapper .faq-right .question-wrapper {
+    padding: 40px 20px;
+  }
 }
 
 #faq-section .faq-wrapper .faq-right .question-wrapper h2 {
