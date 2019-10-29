@@ -359,7 +359,6 @@ p {
   height: 100%;
   background-color: #fff;
   padding-bottom: 130px;
-  display: none;
 }
 
 @media screen and (max-width: 550px) {
@@ -928,6 +927,7 @@ p {
 }
 
 #contact-us {
+  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
