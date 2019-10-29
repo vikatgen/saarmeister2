@@ -144,6 +144,7 @@ p {
 }
 
 .hero-section {
+  display: none;
   width: 100vw;
   height: 100vh;
   background-color: #2c5364;
@@ -1164,7 +1165,6 @@ p {
 }
 
 #footer {
-  display: none;
   width: 100vw;
   height: 80px;
   position: relative;
