@@ -359,6 +359,7 @@ p {
   height: 100%;
   background-color: #fff;
   padding-bottom: 130px;
+  display: none;
 }
 
 @media screen and (max-width: 550px) {
@@ -559,7 +560,6 @@ p {
   position: relative;
   z-index: 1;
   padding-top: 60px;
-  display: none;
 }
 
 #portfolio .portfolio-wrapper {
