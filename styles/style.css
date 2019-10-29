@@ -779,6 +779,7 @@ p {
 }
 
 #faq-section {
+  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
@@ -927,7 +928,6 @@ p {
 }
 
 #contact-us {
-  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
