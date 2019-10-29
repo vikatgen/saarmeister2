@@ -144,6 +144,7 @@ p {
 }
 
 .hero-section {
+  display: none;
   width: 100vw;
   height: 100vh;
   background-color: #2c5364;
@@ -276,6 +277,7 @@ p {
 }
 
 #features {
+  display: none;
   width: 100vw;
   height: 100%;
   background-color: #ebeff0;
@@ -355,7 +357,6 @@ p {
 }
 
 #about-us {
-  display: none;
   width: 100vw;
   height: 100%;
   background-color: #fff;
@@ -780,7 +781,6 @@ p {
 }
 
 #faq-section {
-  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
@@ -929,7 +929,6 @@ p {
 }
 
 #contact-us {
-  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
@@ -1167,6 +1166,7 @@ p {
 }
 
 #footer {
+  display: none;
   width: 100vw;
   height: 80px;
   position: relative;
