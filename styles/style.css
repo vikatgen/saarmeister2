@@ -553,7 +553,7 @@ p {
 }
 
 #portfolio {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #fff;
   position: relative;
@@ -613,6 +613,7 @@ p {
 @media screen and (max-width: 850px) {
   #portfolio .portfolio-wrapper .portfolio-right {
     width: 100%;
+    padding-left: 0px;
     display: none;
   }
 }
