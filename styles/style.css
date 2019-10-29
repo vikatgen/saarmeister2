@@ -558,7 +558,7 @@ p {
   background-color: #fff;
   position: relative;
   z-index: 1;
-  padding: 60px;
+  padding-top: 60px;
 }
 
 #portfolio .portfolio-wrapper {
@@ -582,35 +582,17 @@ p {
   }
 }
 
-#portfolio .portfolio-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: transparent url(/assets/dot-pattern-green.png) no-repeat;
-  background-size: contain;
-  background-position-x: center;
-  opacity: 0.3;
-  z-index: -1;
-}
-
-@media screen and (max-width: 850px) {
-  #portfolio .portfolio-wrapper::after {
-    display: none;
-  }
-}
-
 #portfolio .portfolio-wrapper .portfolio-left {
   width: 50%;
   padding-top: 4rem;
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 850px) {
   #portfolio .portfolio-wrapper .portfolio-left {
     width: 100%;
     padding-top: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -618,14 +600,20 @@ p {
   width: 100%;
 }
 
+#portfolio .portfolio-wrapper .portfolio-left img:nth-child(1) {
+  margin-bottom: 20px;
+}
+
 #portfolio .portfolio-wrapper .portfolio-right {
   width: 50%;
-  padding-top: 15%;
+  padding-top: 4rem;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 850px) {
   #portfolio .portfolio-wrapper .portfolio-right {
     width: 100%;
+    display: none;
   }
 }
 
@@ -643,6 +631,12 @@ p {
           justify-content: center;
   padding-top: 120px;
   padding-bottom: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  #portfolio .gallery-btn-wrapper {
+    padding-top: 60px;
+  }
 }
 
 #portfolio .gallery-btn-wrapper .gallery-btn {

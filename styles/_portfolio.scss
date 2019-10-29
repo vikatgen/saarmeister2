@@ -4,7 +4,7 @@
   background-color: #fff;
   position: relative;
   z-index: 1;
-  padding: 60px;
+  padding-top: 60px;
   .portfolio-wrapper {
     width: 100%;
     display: flex;
@@ -13,38 +13,29 @@
     @media screen and (max-width: 850px) {
       flex-direction: column;
     }
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      background: transparent url(/assets/dot-pattern-green.png) no-repeat;
-      background-size: contain;
-      background-position-x: center;
-      opacity: 0.3;
-      z-index: -1;
-      @media screen and (max-width: 850px) {
-        display: none;
-      }
-    }
     .portfolio-left {
       width: 50%;
       padding-top: 4rem;
+      padding-right: 10px;
       @media screen and (max-width: 850px) {
         width: 100%;
         padding-top: 0px;
+        padding-right: 0px;
       }
       img {
         width: 100%;
+        &:nth-child(1) {
+          margin-bottom: 20px;
+        }
       }
     }
     .portfolio-right {
       width: 50%;
-      padding-top: 15%;
+      padding-top: 4rem;
+      padding-left: 10px;
       @media screen and (max-width: 850px) {
         width: 100%;
+        display: none;
       }
       img {
         width: 100%;
@@ -57,6 +48,9 @@
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 60px;
+    @media screen and (max-width: 500px) {
+      padding-top: 60px;
+    }
     .gallery-btn {
       width: 100%;
       max-width: 250px;
