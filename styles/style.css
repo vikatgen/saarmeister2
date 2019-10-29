@@ -276,7 +276,6 @@ p {
 }
 
 #features {
-  display: none;
   width: 100vw;
   height: 100%;
   background-color: #ebeff0;
@@ -780,7 +779,6 @@ p {
 }
 
 #faq-section {
-  display: none;
   width: 100vw;
   height: 100%;
   position: relative;
@@ -1166,6 +1164,7 @@ p {
 }
 
 #footer {
+  display: none;
   width: 100vw;
   height: 80px;
   position: relative;
