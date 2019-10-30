@@ -33,6 +33,7 @@ h1 {
 
 body {
   background-color: #ebeff0;
+  overflow-x: hidden;
 }
 
 h2 {
