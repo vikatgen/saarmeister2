@@ -8,11 +8,3 @@ $(document).on("click", 'a[href^="#"]', function(event) {
     500
   );
 });
-
-var docWidth = document.documentElement.offsetWidth;
-
-[].forEach.call(document.querySelectorAll("*"), function(el) {
-  if (el.offsetWidth > docWidth) {
-    console.log(el);
-  }
-});
