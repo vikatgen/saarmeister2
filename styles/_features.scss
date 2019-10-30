@@ -4,6 +4,7 @@
   background-color: $mainWhiteColor;
   position: relative;
   padding-bottom: 130px;
+  padding-top: 130px;
   .treeline-white {
     width: 100vw;
     overflow: hidden;
@@ -34,9 +35,7 @@
     }
     .features-content {
       width: 40%;
-      margin-top: 130px;
       margin-bottom: 100px;
-      padding: 40px 0;
       @media screen and (max-width: 1050px) {
         width: 50%;
       }
