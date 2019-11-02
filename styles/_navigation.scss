@@ -1,9 +1,16 @@
 .button_container {
   position: fixed;
   top: 20px;
-  right: 2%;
-  height: 21.6px;
-  width: 28px;
+  right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 18px;
+  //width: 28px;
+  height: 40px;
+  width: 40px;
+  background-color: #d8dfe2;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 100;
   transition: opacity 0.25s ease;
@@ -14,36 +21,43 @@
 
   &.active {
     .top {
-      transform: translateY(7px) translateX(0) rotate(45deg);
-      background: #fff;
+      transform: translateY(6px) translateX(-11px) rotate(45deg);
+      background: $mainBgColor;
     }
     .middle {
       opacity: 0;
-      background: #fff;
+      background: $mainBgColor;
     }
 
     .bottom {
-      transform: translateY(-7px) translateX(0) rotate(-45deg);
-      background: #fff;
+      transform: translateY(-6px) translateX(-11px) rotate(-45deg);
+      background: $mainBgColor;
     }
   }
 
+  .toggle-wrapper {
+    width: 28px;
+    height: 16px;
+    position: relative;
+  }
+
   span {
-    background: #9fb0b8;
+    background: $mainBgColor;
     border-radius: 10px;
     height: 2px;
-    width: 100%;
+    width: 80%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     transition: all 0.35s ease;
     cursor: pointer;
     &:nth-of-type(2) {
-      top: 7px;
+      top: 6px;
     }
 
     &:nth-of-type(3) {
-      top: 14px;
+      top: 12px;
     }
   }
 }
@@ -61,7 +75,7 @@
   overflow: hidden;
 
   &.open {
-    opacity: 0.99;
+    opacity: 1;
     visibility: visible;
     height: 100%;
 

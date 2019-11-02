@@ -111,9 +111,20 @@ p {
 .button_container {
   position: fixed;
   top: 20px;
-  right: 2%;
-  height: 21.6px;
-  width: 28px;
+  right: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #d8dfe2;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 100;
   -webkit-transition: opacity 0.25s ease;
@@ -125,41 +136,49 @@ p {
 }
 
 .button_container.active .top {
-  -webkit-transform: translateY(7px) translateX(0) rotate(45deg);
-          transform: translateY(7px) translateX(0) rotate(45deg);
-  background: #fff;
+  -webkit-transform: translateY(6px) translateX(-11px) rotate(45deg);
+          transform: translateY(6px) translateX(-11px) rotate(45deg);
+  background: #2c5364;
 }
 
 .button_container.active .middle {
   opacity: 0;
-  background: #fff;
+  background: #2c5364;
 }
 
 .button_container.active .bottom {
-  -webkit-transform: translateY(-7px) translateX(0) rotate(-45deg);
-          transform: translateY(-7px) translateX(0) rotate(-45deg);
-  background: #fff;
+  -webkit-transform: translateY(-6px) translateX(-11px) rotate(-45deg);
+          transform: translateY(-6px) translateX(-11px) rotate(-45deg);
+  background: #2c5364;
+}
+
+.button_container .toggle-wrapper {
+  width: 28px;
+  height: 16px;
+  position: relative;
 }
 
 .button_container span {
-  background: #9fb0b8;
+  background: #2c5364;
   border-radius: 10px;
   height: 2px;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
   cursor: pointer;
 }
 
 .button_container span:nth-of-type(2) {
-  top: 7px;
+  top: 6px;
 }
 
 .button_container span:nth-of-type(3) {
-  top: 14px;
+  top: 12px;
 }
 
 .overlay {
@@ -178,7 +197,7 @@ p {
 }
 
 .overlay.open {
-  opacity: 0.99;
+  opacity: 1;
   visibility: visible;
   height: 100%;
 }
