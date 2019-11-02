@@ -41,11 +41,13 @@
   .logo-wrapper {
     position: absolute;
     top: 20px;
+    @media screen and (max-width: 850px) {
+      top: 30px;
+    }
     img {
       width: 200px;
       @media screen and (max-width: 850px) {
         width: 150px;
-        top: 30px;
       }
     }
   }
