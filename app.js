@@ -1,6 +1,6 @@
 //Smooth Scrolling for links and buttons with Jquery
 
-/*$(document).on("click", 'a[href^="#"]', function(event) {
+$(document).on("click", 'a[href^="#"]', function(event) {
   event.preventDefault();
 
   $("html, body").animate(
@@ -13,7 +13,7 @@
 
 // Navigation change color after scrolling
 
-const navbar = document.getElementById("navbar");
+/* const navbar = document.getElementById("navbar");
 
 window.onscroll = function() {
   var top = window.scrollY;
@@ -25,17 +25,21 @@ window.onscroll = function() {
   }
 }; */
 
-const hamburger = document.querySelector(".hamburger");
-const menu = document.querySelector(".menu");
+// Menu Toggler
 
-hamburger.addEventListener("click", () => {
-  toggleClasses();
+/* $("#toggle").click(function() {
+  $(this).toggleClass("active");
+  $("#overlay").toggleClass("open");
+}); */
+
+$(function() {
+  $("#toggle").click(function() {
+    $(this).toggleClass("active");
+    $("#overlay").toggleClass("open");
+  });
+
+  $("#overlay .overlay-menu ul li a").click(function() {
+    $("#toggle").removeClass("active");
+    $("#overlay").removeClass("open");
+  });
 });
-
-function toggleClasses() {
-  hamburger.classList.toggle("open");
-  menu.classList.toggle("open");
-}
-
-setTimeout(toggleClasses, 500);
-setTimeout(toggleClasses, 3000);
