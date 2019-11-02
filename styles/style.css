@@ -470,6 +470,13 @@ p {
   background-color: #ebeff0;
   position: relative;
   padding-bottom: 130px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 850px) {
+  #features {
+    padding-top: 0px;
+  }
 }
 
 #features .treeline-white {

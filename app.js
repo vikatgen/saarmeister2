@@ -32,6 +32,8 @@ window.onscroll = function() {
   $("#overlay").toggleClass("open");
 }); */
 
+//navigation open and close function
+
 $(function() {
   $("#toggle").click(function() {
     $(this).toggleClass("active");
