@@ -85,7 +85,7 @@
     height: 70%;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 50px;
+    font-size: 30px;
     font-family: $mainFont;
     text-transform: uppercase;
     font-weight: 600;
@@ -106,7 +106,7 @@
     li {
       display: block;
       height: 25%;
-      height: calc(100% / 4);
+      height: calc(100% / 5);
       min-height: 50px;
       position: relative;
       opacity: 0;
