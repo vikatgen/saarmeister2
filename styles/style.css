@@ -528,6 +528,7 @@ p {
 @media screen and (max-width: 700px) {
   #features .features-wrapper .features-content {
     width: 100%;
+    margin-top: 30px;
   }
 }
 
@@ -550,7 +551,7 @@ p {
 
 @media screen and (max-width: 550px) {
   #about-us {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 }
 
@@ -564,13 +565,12 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 100px;
-  margin-bottom: 50px;
   position: relative;
 }
 
 @media screen and (max-width: 550px) {
   #about-us .aboutus-wrapper {
-    padding-top: 60px;
+    padding-top: 30px;
   }
 }
 
@@ -963,6 +963,12 @@ p {
   padding-top: 60px;
 }
 
+@media screen and (max-width: 850px) {
+  #faq-section {
+    padding-top: 20px;
+  }
+}
+
 #faq-section .treeline-white {
   width: 100vw;
   overflow: hidden;
@@ -1173,6 +1179,12 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #contact-us .contact-us-wrapper {
+    padding-top: 30px;
   }
 }
 

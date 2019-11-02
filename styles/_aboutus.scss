@@ -4,7 +4,7 @@
   background-color: #fff;
   padding-bottom: 130px;
   @media screen and (max-width: 550px) {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
   .aboutus-wrapper {
     width: 100%;
@@ -12,10 +12,9 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    margin-bottom: 50px;
     position: relative;
     @media screen and (max-width: 550px) {
-      padding-top: 60px;
+      padding-top: 30px;
     }
     .aboutus-content {
       width: 70%;
