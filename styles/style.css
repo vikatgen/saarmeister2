@@ -183,7 +183,7 @@ p {
 
 .overlay {
   position: fixed;
-  background: #2c5364;
+  background: #ebeff0;
   top: 0;
   left: 0;
   width: 100%;
@@ -194,6 +194,20 @@ p {
   -webkit-transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent url(/assets/nav-open-bg-white.svg) no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .overlay.open {
@@ -228,19 +242,24 @@ p {
   position: relative;
   height: 70%;
   top: 50%;
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 60px;
   font-family: "Montserrat";
   text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
+  font-weight: 900;
+  text-align: left;
 }
 
 @media screen and (max-width: 850px) {
   .overlay nav {
-    text-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 900;
+    height: 50%;
+    text-align: center;
   }
 }
 
@@ -265,7 +284,7 @@ p {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #d6bf5d;
   text-decoration: none;
   overflow: hidden;
 }
