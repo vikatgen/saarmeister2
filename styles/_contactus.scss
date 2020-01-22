@@ -15,11 +15,11 @@
     background: transparent url(/assets/dot-pattern-notsowhite.svg) no-repeat;
     background-size: cover;
     background-position-y: -50%;
-    opacity: 0.5;
+    opacity: 0.1;
     z-index: 0;
     @media screen and (max-width: 1050px) {
       background-position-x: center;
-      opacity: 0.4;
+      opacity: 0.1;
     }
   }
   .treeline-green {
@@ -78,6 +78,7 @@
         .info-container {
           padding: 40px;
           z-index: 1;
+          margin-top: 30px;
           @media screen and (max-width: 1050px) {
             width: 100%;
             text-align: center;
