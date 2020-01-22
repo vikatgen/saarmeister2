@@ -84,6 +84,8 @@
         background-color: $mainWhiteColor;
         z-index: 1;
         border-radius: 5px;
+        max-width: 230px;
+        white-space: nowrap;
         @media screen and (max-width: 890px) {
           padding: 15px 30px;
           white-space: nowrap;
